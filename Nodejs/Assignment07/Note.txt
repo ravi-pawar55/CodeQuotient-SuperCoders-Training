@@ -1,0 +1,3 @@
+Build a Chat application and include features such as private messaging, message logging, or chat room management. Handle network errors and timeouts gracefully.
+
+Git Repo : https://github.com/ravi-pawar55/ChatVerse-group-chat-app
