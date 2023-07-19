@@ -5,12 +5,10 @@ fs.readFile('./urls.txt','utf8',function(err,data){
     if(err){
         console.log("An Error Occured");
     }else{
-        //console.log(data);
         var urls = data.split('\n');
         urls = urls.map(function(url){
             return url.replace('\r','');
         })
-        // console.log(urls)
         urls.forEach(function(url,ind){
             getRequest(url,ind);
         })
